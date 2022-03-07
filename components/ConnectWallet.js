@@ -12,7 +12,7 @@ import RinkebyContractABI from "../abi/rinkeby.json";
 import MainnetContractABI from "../abi/mainnet.json";
 
 const CHAIN_ID = process.env.NEXT_PUBLIC_CHAIN_ID;
-const NETWORK = CHAIN_ID === "1" ? "mainnet" : "rinkeby";
+const NETWORK = CHAIN_ID === "1" ? "matic" : "rinkeby";
 const contractABI = CHAIN_ID === "1" ? MainnetContractABI : RinkebyContractABI;
 
 const providerOptions = {
@@ -27,7 +27,7 @@ const providerOptions = {
 let web3ModelInstance;
 if (typeof window !== "undefined") {
   web3ModelInstance = new Web3Modal({
-    network: process.env.NEXT_PUBLIC_CHAIN_ID === "1" ? "mainnet" : "rinkeby",
+    network: process.env.NEXT_PUBLIC_CHAIN_ID === "1" ? "matic" : "rinkeby",
     cacheProvider: true,
     providerOptions,
   });
@@ -118,9 +118,8 @@ function ConnectWallet(props) {
           try {
             const { provider, signer, web3Instance } = await connectWallet();
             const address = await signer.getAddress();
-            const ens = await provider.lookupAddress(address);
-            setAddress(ens || formatAddress(address));
-            set("address", ens || formatAddress(address));
+            setAddress(formatAddress(address));
+            set("address",formatAddress(address));
             set("fullAddress", address);
             web3Instance.on("accountsChanged", async (accounts) => {
               if (accounts.length === 0) {
@@ -130,9 +129,8 @@ function ConnectWallet(props) {
                 setAddress(null);
               } else {
                 const address = accounts[0];
-                const ens = await provider.lookupAddress(address);
-                setAddress(ens || formatAddress(address));
-                set("address", ens || formatAddress(address));
+                setAddress(formatAddress(address));
+                set("address",formatAddress(address));
                 set("fullAddress", address);
               }
             });

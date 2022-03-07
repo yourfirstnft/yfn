@@ -73,7 +73,7 @@ function Intro() {
       id="intro"
     >
       <Head>
-        <h1>国产良心 NFT</h1>
+        <h1>Your First NFT</h1>
         <MenuWrapper>
           <MenuItem elementId="intro">介绍</MenuItem>
           <MenuItem elementId="roadmap">发展路线</MenuItem>
@@ -93,7 +93,7 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
-          尊贵且独一无二的限量 1000 份【国产良心】NFT，专为中国人准备！
+          献给 Web3  新手的第一个 NFT
         </Typography>
         <Typography
           style={{
@@ -102,6 +102,8 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
+          公开供应，数量无限，人手一个
+          <br/>
           请放心参与，咱中国人不骗中国人{" "}
           <img
             style={{ width: 36, position: "relative", top: 5 }}
@@ -115,7 +117,7 @@ function Intro() {
         >
           <Tooltip title="官方 OpenSea">
             <a
-              href="https://opensea.io/collection/gclx"
+              href="https://opensea.io/collection/yourfirstnft-v3"
               target="_blank"
               rel="noreferrer"
             >
@@ -129,9 +131,9 @@ function Intro() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="官方 LooksRare">
+          <Tooltip title="官方 github">
             <a
-              href="https://looksrare.org/zh_hans/collections/0xBf66f2d9630A033022602c3279b04b4a37399927"
+              href="https://github.com/yourfirstnft/YourFirstNFT"
               target="_blank"
               rel="noreferrer"
             >
@@ -141,7 +143,7 @@ function Intro() {
                   width: 40,
                   marginRight: "40px",
                 }}
-                src="/icons/looksrare.png"
+                src="/icons/github.png"
               />
             </a>
           </Tooltip>
@@ -160,7 +162,7 @@ function Intro() {
             </a>
           </Tooltip>
         </div>
-        <Typography
+        {/* <Typography
           style={{
             marginTop: "5%",
             textAlign: "center",
@@ -172,7 +174,7 @@ function Intro() {
         >
           我们不与国际接轨。We DO NOT provide an English version for English
           speakers, please consider learning Chinese or using Google Translate.
-        </Typography>
+        </Typography> */}
       </Content>
     </Container>
   );

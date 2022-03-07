@@ -14,7 +14,7 @@ const GalleryList = styled.div`
   margin: 5% auto 0 auto;
 `;
 const GalleryItem = styled.div`
-  width: 120px;
+  width: 480px;
   margin: 10px;
   transition: all 0.2s ease;
   will-change: transform;
@@ -30,18 +30,7 @@ const GalleryItem = styled.div`
 `;
 
 const arts = [
-  "/images/demo_01.png",
-  "/images/demo_03.png",
-  "/images/demo_07.png",
-  "/images/demo_13.png",
-  "/images/demo_06.png",
-  "/images/demo_05.png",
-  "/images/demo_10.png",
-  "/images/demo_04.png",
-  "/images/demo_14.png",
-  "/images/demo_09.png",
-  "/images/demo_11.png",
-  "/images/demo_12.png",
+  "/images/firstnft1.png"
 ];
 
 const Content = styled.div`

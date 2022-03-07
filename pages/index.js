@@ -50,12 +50,12 @@ export default function Home() {
         />
       </Head>
       <Intro />
+      <Mint />
       <Gallery />
       <Roadmap />
-      <Whitelist />
-      <FAQ />
+      {/* <Whitelist /> */}
+      {/* <FAQ /> */}
       <Team />
-      <Mint />
       <Summary />
     </div>
   );

@@ -229,7 +229,7 @@ function MintSection() {
     );
   }
 
-  if (balanceOf === 2) {
+  if (balanceOf === 1) {
     mintButton = (
       <StyledMintButton
         style={{
@@ -282,7 +282,7 @@ function MintSection() {
         您的钱包： <ConnectWallet />{" "}
         {fullAddress && (
           <span style={{ marginLeft: 10 }}>
-            可以铸造 {2 - balanceOf} 个。
+            可以铸造 {1 - balanceOf} 个。
           </span>
         )}
       </div>
@@ -290,7 +290,7 @@ function MintSection() {
       <div style={{ marginTop: 10 }}>
         请移步在{" "}
         <a
-          href="https://opensea.io/collection/gclx"
+          href="https://opensea.io/collection/yourfirstnft-v3"
           target="_blank"
           rel="noreferrer"
         >
@@ -299,10 +299,8 @@ function MintSection() {
         上查看。
       </div>
       <div style={{ marginTop: 20, fontSize: 20, textAlign: "center" }}>
-        铸造进度：{progress === null ? "请先连接钱包" : progress} / 1000，价格
-        0.01 ETH 一个，每个钱包最多 2 个，每人每天 2 个钱包。
-        <br />
-        今天，我们都是良心铸造人！
+        已铸造进度：{progress === null ? "请先连接钱包" : progress}。
+        公开供应，数量无限，人手一个
       </div>
     </div>
   );
