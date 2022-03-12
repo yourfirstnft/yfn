@@ -333,9 +333,7 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          您好我的朋友，有没有觉得这个国产良心 NFT
-          项目网站跟别的项目不太一样？上面废话特别多，Mint
-          的按钮和方法一直找不到？
+          本项目价格为 0，但实际购买需要 Matic 手续费 0.005个（并非本项目收取）
         </Typography>
         <Typography
           style={{
@@ -345,8 +343,7 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          这并非因为我们不懂用户体验，相反，我们希望您在参与任何一个项目的时候，都能认真研究项目背后的团队、理念、发展路线和风险。不要
-          FOMO 也不要 FUD，要理性的决定自己是否要参与这个项目！
+          如果你想购买，但又不会，请你学习 Web3 基础知识，自行查看教程解决。
         </Typography>
         <Typography
           style={{
@@ -356,8 +353,10 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          相信通过上面的资料，相信您已经充分了解了我们国产良心 NFT
-          项目。在您做好充分的思想准备之后，可以选择点击下面铸造（Mint）按钮进行铸造。
+          本项目让你安全进入 Web3 新手村，首先不成为韭菜，首先不成为先烈，首先不成为炮灰。
+本项目由团队内在 ，旨在学习交流。
+本项目现在及未来，有且仅有一个 NFT，主图案为登上月球第二人奥尔德林的脚印，文字为 hello world（你好，世界），为多数编程教程指引新手打印出第一句话​。
+
         </Typography>
 
         <div
@@ -370,7 +369,7 @@ function Mint() {
         >
           <MintSection />
         </div>
-        <Typography
+        {/* <Typography
           style={{ textAlign: "center", marginTop: "8%" }}
           variant="h5"
           gutterBottom
@@ -402,7 +401,7 @@ function Mint() {
             https://discord.gg/NextDAO
           </a>
           ） 并链接钱包验证身份，之后即可看到会员频道。
-        </Typography>
+        </Typography> */}
       </Content>
     </Container>
   );

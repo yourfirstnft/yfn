@@ -84,7 +84,7 @@ function Intro() {
       </Head>
       <Content>
         <ContentImage>
-          <img style={{ width: 200 }} src="/images/demo.gif" />
+          <img style={{ width: 400 }} src="/images/firstnft1.png" />
         </ContentImage>
         <Typography
           style={{
