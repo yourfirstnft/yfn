@@ -5,6 +5,7 @@ import Gallery from "../components/Gallery";
 import Roadmap from "../components/Roadmap";
 import Whitelist from "../components/Whitelist";
 import Team from "../components/Team";
+import Thanks from "../components/Thanks";
 import FAQ from "../components/FAQ";
 import Mint from "../components/Mint";
 import Summary from "../components/Summary";
@@ -56,6 +57,7 @@ export default function Home() {
       {/* <Whitelist /> */}
       {/* <FAQ /> */}
       {/* <Team /> */}
+      <Thanks />
       {/* <Summary /> */}
     </div>
   );
