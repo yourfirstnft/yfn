@@ -35,8 +35,7 @@ function Roadmap() {
         >
           <strong>2022 Q2</strong>{" "}
           {/* <del> */}
-            完成合约发布，项目网站上线
-            在 Mint 成功后，我们鼓励你使用 Mirror 发布文章，创建你的第一篇 Web3 文章，鼓励进入 RSS3，创造你的 Web3 主页。
+          完成合约发布，项目网站上线。
           {/* </del> */}
           {/* （2022.03.12{" "}
           <a
@@ -50,11 +49,11 @@ function Roadmap() {
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           <strong>2022 Q3</strong>{" "}
-          完成 Q2 没有完成的目标。
+          鼓励你后续摸索使用 Mirror 与 RSS3 ，引导更多人进入 Web3。
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           <strong>2022 Q4</strong>{" "}
-          绝对不会跑路，因为我们没有拿你们一分钱，没有必要。
+          本项目永不跑路。
         </Typography>
         {/* <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           <strong>2022 Q4</strong>{" "}

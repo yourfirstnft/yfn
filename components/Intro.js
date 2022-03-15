@@ -68,7 +68,7 @@ function Intro() {
   return (
     <Container
       style={{
-        background: "#dae7f8",
+        background: "#eaf1ef",
       }}
       id="intro"
     >
@@ -76,9 +76,11 @@ function Intro() {
         <h1>Your First NFT</h1>
         <MenuWrapper>
           <MenuItem elementId="intro">介绍</MenuItem>
+          <MenuItem elementId="mint">铸造</MenuItem>
           <MenuItem elementId="roadmap">发展路线</MenuItem>
-          <MenuItem elementId="faq">问与答</MenuItem>
           <MenuItem elementId="team">项目成员</MenuItem>
+          <MenuItem elementId="thanks">特别鸣谢</MenuItem>
+          
         </MenuWrapper>
         <ConnectWallet showCollect={true} />
       </Head>
@@ -102,13 +104,8 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
-          公开供应，数量无限，人手一个
+          免费铸造，数量无限，新手必备
           <br/>
-          请放心参与，咱中国人不骗中国人{" "}
-          <img
-            style={{ width: 36, position: "relative", top: 5 }}
-            src="/icons/doge.png"
-          />
         </Typography>
         <div
           style={{

@@ -23,7 +23,7 @@ const Avatar = styled.div`
 `;
 
 const TeamMemberWrapper = styled.div`
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,6 +48,11 @@ function TeamMember(props) {
           {props.twitterLink && (
             <a href={props.twitterLink} target="_blank" rel="noreferrer">
               <img style={{ width: 30 }} src="/icons/twitter.svg" alt="" />
+            </a>
+          )}
+          {props.blogLink && (
+            <a href={props.blogLink} target="_blank" rel="noreferrer">
+              <img style={{ width: 30 }} src="/icons/blog.svg" alt="" />
             </a>
           )}
           {props.openseaLink && (
@@ -94,44 +99,20 @@ function Team() {
       </Typography>
 
       <Content>
-        <Typography
-          style={{
-            marginTop: "5%",
-            textAlign: "center",
-          }}
-          variant="body1"
-          gutterBottom
-        >
-          我们是国产良心 NFT 项目，我们的项目成员均为真人并且拥有推特账号！
-        </Typography>
-
         <TeamWrapper>
           <TeamMember
-            img="/one/bruce.jpg"
-            name="Bruce Xu"
-            role="项目发起人 / 多年经验程序员 / Web3 要饭人"
-            description="以前擅长在 Web3 要饭、舔白，现在翻身做项目方！捐赠地址 brucexu.eth 谢谢！"
-            twitterLink="https://twitter.com/brucexu_eth"
+            img="/one/cnfeat.jpg"
+            name="cnfeat"
+            role="项目发起人"
+            description="笨方法实验室发起人 / 代表作《笨方法文化手册》"
+            blogLink="http://www.HardWayLab.com"
           />
           <TeamMember
-            img="/one/muxin.jpg"
-            name="Muxin"
-            role="艺术家 / 摄影爱好者 / 合约工程师"
-            description={
-              <div>
-                大概从2022年2月16日开始学习写合约。《One》系列摄影作品已上架{" "}
-                <a
-                  href="https://opensea.io/collection/one-series-photography"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  OpenSea
-                </a>
-                。
-              </div>
-            }
-            twitterLink="https://twitter.com/muxin_eth"
-            openseaLink="https://opensea.io/collection/one-series-photography"
+            img="/one/nick.jpg"
+            name="nick"
+            role="项目参与者"
+            description="打工人/ iOS开发者/ 努力学习web3"
+            blogLink="https://www.devzhangh.com/"
           />
         </TeamWrapper>
       </Content>

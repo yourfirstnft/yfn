@@ -30,7 +30,7 @@ export default function Home() {
       <Head>
         <title>Your First NFT</title>
         <meta name="description" content="Your First NFT" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/images/firstnft1.png" />
 
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
@@ -56,7 +56,7 @@ export default function Home() {
       <Roadmap />
       {/* <Whitelist /> */}
       {/* <FAQ /> */}
-      {/* <Team /> */}
+      <Team />
       <Thanks />
       {/* <Summary /> */}
     </div>

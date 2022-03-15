@@ -205,11 +205,6 @@ function MintSection() {
           mintAmount={1}
           style={{ marginRight: "20px" }}
         />
-        <MintButton
-          onMinted={refreshStatus}
-          mintAmount={2}
-          disabled={balanceOf === 1}
-        />
       </div>
     );
   }
@@ -310,7 +305,7 @@ function Mint() {
   return (
     <Container
       style={{
-        background: "#5383b2",
+        background: "#56ab8a",
         color: "#fff",
       }}
       id="mint"
@@ -333,7 +328,7 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          本项目价格为 0，但实际购买需要 Matic 手续费 0.005个（并非本项目收取）
+          实际购买需要支付手续费 Matic 虚拟币 0.005 个（人民币约 0.05 元）
         </Typography>
         <Typography
           style={{
@@ -353,10 +348,18 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          本项目让你安全进入 Web3 新手村，首先不成为韭菜，首先不成为先烈，首先不成为炮灰。
-本项目由团队内在 ，旨在学习交流。
-本项目现在及未来，有且仅有一个 NFT，主图案为登上月球第二人奥尔德林的脚印，文字为 hello world（你好，世界），为多数编程教程指引新手打印出第一句话​。
+          本项目旨在让你安全摸索进入 Web3 新手村，首先不成为韭菜、先烈和炮灰。
+        </Typography>
 
+        <Typography
+          style={{
+            marginTop: 30,
+            textAlign: "center",
+          }}
+          variant="body1"
+          gutterBottom
+        >
+          如果你想购买，请查看项目介绍，自行学习 Web3 基础知识解决。
         </Typography>
 
         <div
