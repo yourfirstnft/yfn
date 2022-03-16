@@ -293,10 +293,6 @@ function MintSection() {
         </a>{" "}
         上查看。
       </div>
-      <div style={{ marginTop: 20, fontSize: 20, textAlign: "center" }}>
-        已铸造进度：{progress === null ? "请先连接钱包" : progress}。
-        公开供应，数量无限，人手一个
-      </div>
     </div>
   );
 }
@@ -328,7 +324,7 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          实际购买需要支付手续费 Matic 虚拟币 0.005 个（人民币约 0.05 元）
+          本项目铸造费用为 0
         </Typography>
         <Typography
           style={{
@@ -338,7 +334,7 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          如果你想购买，但又不会，请你学习 Web3 基础知识，自行查看教程解决。
+          实际购买需要支付手续费 Matic 虚拟币 0.005 个（人民币约 0.05 元）
         </Typography>
         <Typography
           style={{

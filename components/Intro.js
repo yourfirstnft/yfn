@@ -107,6 +107,23 @@ function Intro() {
           免费铸造，数量无限，新手必备
           <br/>
         </Typography>
+        <Typography
+          style={{
+            marginTop: "2%",
+          }}
+          variant="body1"
+          gutterBottom
+        >
+          更多
+          <a
+              href="https://github.com/yourfirstnft/YourFirstNFT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              项目介绍
+            </a>
+          <br/>
+        </Typography>
         <div
           style={{
             padding: "40px 0",
@@ -137,24 +154,9 @@ function Intro() {
               <img
                 style={{
                   cursor: "pointer",
-                  width: 40,
-                  marginRight: "40px",
+                  width: 40
                 }}
                 src="/icons/github.png"
-              />
-            </a>
-          </Tooltip>
-          <Tooltip title="官方 Twitter">
-            <a
-              href="https://twitter.com/gclxnft"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                style={{
-                  width: 40,
-                }}
-                src="/icons/twitter.svg"
               />
             </a>
           </Tooltip>

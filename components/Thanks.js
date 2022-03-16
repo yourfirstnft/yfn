@@ -90,7 +90,7 @@ function Thanks() {
         gutterBottom
         component="div"
       >
-        特别鸣谢！
+        特别鸣谢
       </Typography>
 
       <Content>
@@ -102,7 +102,9 @@ function Thanks() {
           variant="body1"
           gutterBottom
         >
-          特别感谢国产良心 NFT 项目/NextDao大家庭，没有国产良心就没有我们现在网页和合约
+          特别感谢国产良心 NFT 项目/NextDao
+          <br/>
+          没有国产良心就没有我们
         </Typography>
 
         <ThanksTeamWrapper>
