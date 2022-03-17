@@ -111,7 +111,7 @@ function ConnectWallet(props) {
     <div style={{ position: "relative" }}>
       <Chip
         style={{ fontSize: 16 }}
-        label={loading ? "连接中..." : "连接钱包"}
+        label={loading ? "连接中..." : "连接钱包（matic 网络）"}
         color="primary"
         onClick={async () => {
           setLoading(true);

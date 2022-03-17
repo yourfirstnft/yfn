@@ -209,20 +209,20 @@ function MintSection() {
     );
   }
 
-  if (progress >= 1000 || status === "2") {
-    console.log("全部卖完了 1 progress_____", progress)
-    mintButton = (
-      <StyledMintButton
-        style={{
-          background: "#eee",
-          color: "#999",
-          cursor: "not-allowed",
-        }}
-      >
-        全部卖完了
-      </StyledMintButton>
-    );
-  }
+  // if (progress >= 1000 || status === "2") {
+  //   console.log("全部卖完了 1 progress_____", progress)
+  //   mintButton = (
+  //     <StyledMintButton
+  //       style={{
+  //         background: "#eee",
+  //         color: "#999",
+  //         cursor: "not-allowed",
+  //       }}
+  //     >
+  //       全部卖完了
+  //     </StyledMintButton>
+  //   );
+  // }
 
   if (balanceOf === 1) {
     mintButton = (
@@ -282,6 +282,9 @@ function MintSection() {
         )}
       </div>
       {mintButton}
+      <div style={{ marginTop: 20, fontSize: 20, textAlign: "center" }}>
+        {progress === null ? "" : "已有" + progress + "人成功mint。"}
+      </div>
       <div style={{ marginTop: 10 }}>
         请移步在{" "}
         <a
