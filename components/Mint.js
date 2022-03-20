@@ -358,7 +358,15 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          如果你想购买，请查看项目介绍，自行学习 Web3 基础知识解决。
+          如果你想购买，请查看
+          <a
+              href="https://github.com/yourfirstnft/YourFirstNFT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              项目介绍
+            </a>
+          ，自行学习 Web3 基础知识解决。
         </Typography>
 
         <div

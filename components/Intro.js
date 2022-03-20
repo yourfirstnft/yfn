@@ -114,7 +114,7 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
-          更多
+          更多 
           <a
               href="https://github.com/yourfirstnft/YourFirstNFT"
               target="_blank"
