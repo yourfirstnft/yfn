@@ -35,7 +35,7 @@ function Roadmap() {
         >
           <strong>2022 Q2</strong>{" "}
           {/* <del> */}
-          完成合约发布，项目网站上线。
+          完成合约发布，项目网站上线
           {/* </del> */}
           {/* （2022.03.12{" "}
           <a
@@ -49,11 +49,11 @@ function Roadmap() {
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           <strong>2022 Q3</strong>{" "}
-          鼓励你后续摸索使用 Mirror 与 RSS3 ，引导更多人进入 Web3。
+          让本项目更健康更长久
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           <strong>2022 Q4</strong>{" "}
-          本项目永不跑路。
+          本项目永不跑路
         </Typography>
         {/* <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           <strong>2022 Q4</strong>{" "}
